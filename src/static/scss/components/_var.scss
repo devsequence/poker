@@ -1,0 +1,46 @@
+// genearl
+
+$white: #ffffff;
+$black: #000000;
+
+// main
+
+$primary: #252525;
+$default: #141414;
+$gray: #C4C4C4;
+$gray: #AFA6A6;
+$red: #DE3F53;
+
+
+$ActionNeutralNormal: #6E767D;
+$BorderDivider: #D6D7D8;
+$BackgroundSurface-100: #F3F4F5;
+$ContentDisabled-100: #A5A6A8;
+$ContentDisabled: #A5A6A8;
+$BackgroundSurfaceDark: #5D40BF;
+$BackgroundSurfaceSubtle-100: #E7E1FB;
+$ContentLink: #FF5913;
+$ActionPrimaryNormal: #FF5913;
+$ContentSecondary: #56535F;
+$ContentPrimary: #22174A;
+$GradientDark: #232432;
+$BorderNormal: #D7DBDF;
+$BackgroundSurfaceDarks: #22174A;
+$Gradient: linear-gradient(0deg, rgba($black, 0.2), rgba($black, 0.2)), linear-gradient(113.42deg, $BackgroundSurfaceDarks 0.05%, $GradientDark 106.1%);
+  // info
+
+$danger: #f00;
+$success: #00b911;
+$info: #26badf;
+$warning: #fbf8db;
+
+// shades
+
+
+// mixins
+
+@mixin linear-gradient($direction, $fromColor, $toColor) {
+  background-color: $fromColor;
+  background-image: linear-gradient($direction, $fromColor, $toColor);
+}
+
